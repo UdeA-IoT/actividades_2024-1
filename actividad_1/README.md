@@ -29,7 +29,7 @@ void loop() {
 
 La implementación del ejemplo anterior se muestra en los siguientes directorios:
 * Implementación en el Arduino UNO usando componentes discretos (Pendiente).
-* Implementación en el Arduino UNO usando modulos (Pendiente).
+* Implementación en el Arduino UNO usando modulos ([ejemplo1_ArduinoUNO_modulos](ejemplo1_ArduinoUNO_modulos/)).
 * Implementación en el ESP32 usando componentes discretos (Pendiente).
 * Implementación en el ESP32 usando modulos ([ejemplo1_ESP32_modulos](ejemplo1_ESP32_modulos/)).
 
