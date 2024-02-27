@@ -67,13 +67,23 @@ void loop() {
 
 ## Enunciado
 
-Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripción y el montaje de los ejercicios que le sean asignados en clase.
+Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripción y el montaje de los ejercicios del documento **37 SENSOR KIT TUTORIAL FOR UNO V2.0** ([link](37%20SENSOR%20KIT%20TUTORIAL%20FOR%20UNO%20AND%20MEGA%20v2.0.0.19.05.22.pdf)) que le sean asignados en clase. A continuación esta la tabla de asignación:
 
 |#|Ejemplo|Responsable|Directorio con la solución|
 |---|---|---|---|
 |1|Lesson 4 Temperature and Humidity Module|Integrante 1 - Integrante2 - Integrante3|link al directorio|
 ||||
 
+## Referencias 
+
+Las siguientes referencias le pueden ser de utilidad:
+* https://randomnerdtutorials.com/
+* https://www.luisllamas.es/
+* https://sparkfun.com/
+* https://www.adafruit.com/
+* https://www.seeedstudio.com/
+* https://www.dfrobot.com/
+  * https://www.dfrobot.com/blog-964.html
 
 <!--
 * https://wokwi.com/projects/390841528998696961
