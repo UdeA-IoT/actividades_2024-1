@@ -11,25 +11,19 @@ La siguiente figura muestra un sistema para el control de la frecuencia de parpa
 El programa de control se muestra a continuación:
 
 ```c++
-const int sw1pin = 6;
-const int sw2pin = 7;
-const int soundPin = 8;
+const int voltsInPin = A3;
+const int ledPin = 9;
 
 void setup() {
-  pinMode(sw1pin, INPUT_PULLUP);
-  pinMode(sw2pin, INPUT_PULLUP);
-  pinMode(soundPin, OUTPUT);
+  pinMode(ledPin, OUTPUT);
 }
 void loop() {
-  if (!digitalRead(sw1pin)) {
-    tone(soundPin, 220);
-  }
-  else if (!digitalRead(sw2pin)) {
-    tone(soundPin, 300);
-  }
-  else {
-    noTone(soundPin);
-  }
+  int rawReading = analogRead(voltsInPin);
+  int period = map(rawReading, 0, 1023, 100, 500);
+  digitalWrite(ledPin, HIGH);
+  delay(period);
+  digitalWrite(ledPin, LOW);
+  delay(period);
 }
 ```
 
@@ -75,6 +69,8 @@ void loop() {
 
 Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripción y el montaje de los ejercicios que le sean asignados en clase.
 
+
+<!--
 * https://wokwi.com/projects/390841528998696961
 * https://www.tinkercad.com/things/eEfdtHudn3N-example1tones
 * https://wokwi.com/projects/390845763531763713
@@ -89,3 +85,4 @@ Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripció
 
 
 https://wokwi.com/projects/390853318294103041
+-->

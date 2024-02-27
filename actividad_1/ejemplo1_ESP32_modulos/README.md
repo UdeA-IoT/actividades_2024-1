@@ -1,4 +1,4 @@
-# Control de parpadeo
+# Control de parpadeo - ESP32
 
 ## Descripción
 
