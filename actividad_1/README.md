@@ -69,6 +69,11 @@ void loop() {
 
 Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripción y el montaje de los ejercicios que le sean asignados en clase.
 
+|#|Ejemplo|Responsable|Directorio con la solución|
+|---|---|---|---|
+|1|Lesson 4 Temperature and Humidity Module|Integrante 1 - Integrante2 - Integrante3|link al directorio|
+||||
+
 
 <!--
 * https://wokwi.com/projects/390841528998696961
