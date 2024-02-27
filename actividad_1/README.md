@@ -2,9 +2,13 @@
 
 El proposito de esta actividad consiste en portar ejemplos resueltos para el Arduino en el ESP32.
 
-## Ejemplo
+## Ejemplo 1
 
+La siguiente figura muestra un sistema para el control de la frecuencia de parpadeo de un led usando que usa un potenciometro como entrada de control. El esquematico se muestra a continuación.
 
+![ejercicio1](ejercicio1.png)
+
+El programa de control se muestra a continuación:
 
 ```c++
 const int sw1pin = 6;
@@ -29,7 +33,20 @@ void loop() {
 }
 ```
 
+La implementación del ejemplo anterior se muestra en los siguientes directorios:
+* Implementación en el Arduino UNO usando componentes discretos (Pendiente).
+* Implementación en el Arduino UNO usando modulos (Pendiente).
+* Implementación en el ESP32 usando componentes discretos (Pendiente).
+* Implementación en el ESP32 usando modulos ([ejemplo1_ESP32_modulos](ejemplo1_ESP32_modulos/)).
 
+## Ejemplo 2
+
+El siguiente sistema implementa un sistema que pone a sonar un buzzer a dos frecuencias diferentes dependiendo del pulsador que se haya presionado.
+
+![Ejemplo2](ejercicio2.png)
+
+
+El programa que se descarga en la placa de desarrollo se muestra a continuación:
 
 ```c++
 const int sw1pin = 6;
@@ -54,11 +71,21 @@ void loop() {
 }
 ```
 
+## Enunciado
+
+Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripción y el montaje de los ejercicios que le sean asignados en clase.
 
 * https://wokwi.com/projects/390841528998696961
 * https://www.tinkercad.com/things/eEfdtHudn3N-example1tones
-
+* https://wokwi.com/projects/390845763531763713
+* 
 
 * https://makeabilitylab.github.io/physcomp/esp32/tone.html
 * https://www.dfrobot.com/blog-947.html
 * https://www.dfrobot.com/blog-964.html
+
+
+## Ejemplo 2
+
+
+https://wokwi.com/projects/390853318294103041
