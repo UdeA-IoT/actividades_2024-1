@@ -71,7 +71,9 @@ Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md) realice la descripció
 
 |#|Ejemplo|Responsable|Directorio con la solución|
 |---|---|---|---|
-|1|Lesson 4 Temperature and Humidity Module|Integrante 1 - Integrante2 - Integrante3|link al directorio|
+|1|Ejemplo 1 imlementado en Arduino UNO|Integrante1 - Integrante2|[link](./ejemplo1_Arduino-UNO_componentes/)|
+|2|Ejemplo 1 imlementado en la ESP32|Integrante1 - Integrante2|[link](./ejemplo1_ESP32_modulos/)|
+|3|Lesson 4 Temperature and Humidity Module|Integrante 1 - Integrante2 - Integrante3|link al directorio|
 ||||
 
 ## Referencias 
