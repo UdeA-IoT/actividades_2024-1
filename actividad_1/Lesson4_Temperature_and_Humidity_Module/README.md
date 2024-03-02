@@ -18,11 +18,11 @@ Lista de los componentes siguiendo llenando una tabla de la siguiente forma:
 
 ### Esquematico
 
-Imagen con el esquematico del circuito
+![Lesson4_esquemático](https://github.com/diegopovalz/actividades_2024-1/assets/57969717/a9db1164-0ce3-45da-8629-b41b3c53e082)
 
 ### Conexiones
 
-Imagen con el diagrama de conexión
+![Lesson4_bb](https://github.com/diegopovalz/actividades_2024-1/assets/57969717/5143a92a-d1de-45bf-af33-5300d9a7bb47)
 
 ## Software
 
