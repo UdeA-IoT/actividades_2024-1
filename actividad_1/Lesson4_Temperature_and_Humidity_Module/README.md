@@ -62,7 +62,7 @@ void loop( )
 
 Enlaces con la simulación, de ser posible:
 
-| Plataforma | Link |
-| ---------- | ---- |
-| Tinkercad  |      |
-| Wokwi      |      |
+| Plataforma | Link                                                  |
+| ---------- | ----------------------------------------------------- |
+| Tinkercad  |                                                       |
+| Wokwi      | [link](https://wokwi.com/projects/391276679166924801) |
