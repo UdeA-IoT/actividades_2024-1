@@ -12,7 +12,7 @@ Lista de los componentes siguiendo llenando una tabla de la siguiente forma:
 
 |Item #|Cantidad|Descripción|Información|
 |---|---|---|---|
-|1|1|Elegoo Uno R3|Microprocesador|
+|1|1|Arduino Uno R3	|Microprocesador|
 |2|1|Active Buzzer Module|Módulo que emite sonido audible al recibir señal eléctrica|
 |3|2|F-M wires|Cables|
 
