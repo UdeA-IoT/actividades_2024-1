@@ -17,10 +17,10 @@ Lista de los componentes siguiendo llenando una tabla de la siguiente forma:
 
 |Item #|Cantidad|Descripción|Información|
 |---|---|---|---|
-|1|Elegoo Uno R3|||
-|2|USB cable|||
-|3| Button modulo|||
-|4| F-M Wires|||
+|Elegoo Uno R3|1|Microprocesador||
+|USB cable|1|Cable||
+|Button modulo|1|Boton||
+|F-M Wires|1|Cable||
 
 ### Esquematico
 
