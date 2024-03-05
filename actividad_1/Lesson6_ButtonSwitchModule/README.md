@@ -35,6 +35,8 @@ Lista de los componentes siguiendo llenando una tabla de la siguiente forma:
 ## Software
 
 ### Codigo
+
+```C++
 int buttonState = 0;
 
 void setup()
@@ -58,10 +60,10 @@ void loop()
   }
   delay(10); // Delay a little bit to improve simulation performance
 }
+```
 
 Simulación
-Enlaces con la simulación, de ser posible:
 
 |Plataforma|Link|
 |---|---|
-|Tinkercad|https://www.tinkercad.com/things/jHFczUwpAl5-fantabulous-snaget-borwo/editel?sharecode=LwbzRV3-29FtA2J0TVSUUM-rs5Y8Tw0ZyQP3_A87m_Q|
+|Tinkercad| [Link](https://www.tinkercad.com/things/jHFczUwpAl5-fantabulous-snaget-borwo/editel?sharecode=LwbzRV3-29FtA2J0TVSUUM-rs5Y8Tw0ZyQP3_A87m_Q)|
