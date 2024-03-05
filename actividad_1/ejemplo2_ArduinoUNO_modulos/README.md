@@ -1,8 +1,8 @@
-# Control de parpadeo
+# Control de parpadeo - Arduino UNO
 
 ## Descripción
 
-Descripción breve de lo que hace el sistema
+Sistema para el control de la frecuencia de parpadeo de un led usando que usa un potenciometro como entrada de control.
 
 ## Hardware
 
