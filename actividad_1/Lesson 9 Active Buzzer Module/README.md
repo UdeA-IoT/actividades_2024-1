@@ -19,10 +19,12 @@ Lista de los componentes siguiendo llenando una tabla de la siguiente forma:
 ### Esquematico
 
 Imagen con el esquematico del circuito
+![Lesson9_esquemático](https://github.com/juanjohiguita/actividades_2024-1/blob/main/actividad_1/Lesson%209%20Active%20Buzzer%20Module/lesson%209_bb.png)
 
 ### Conexiones
 
 Imagen con el diagrama de conexión
+![Lesson9_bb](https://github.com/juanjohiguita/actividades_2024-1/blob/main/actividad_1/Lesson%209%20Active%20Buzzer%20Module/lesson%209_esquemático.png)
 
 ## Software
 
