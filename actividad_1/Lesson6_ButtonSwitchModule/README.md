@@ -24,11 +24,13 @@ Lista de los componentes siguiendo llenando una tabla de la siguiente forma:
 
 ### Esquematico
 
+![image](https://github.com/Keco28/actividades_2024-1/assets/95240358/d59e2f29-227b-45a4-830f-f89331f8680a)
 
 
 ### Conexiones
 
-Imagen con el diagrama de conexión
+![image](https://github.com/Keco28/actividades_2024-1/assets/95240358/e6e35547-c49a-4695-9795-b3c35cc3bd3f)
+
 
 ## Software
 
@@ -56,3 +58,10 @@ void loop()
   }
   delay(10); // Delay a little bit to improve simulation performance
 }
+
+Simulación
+Enlaces con la simulación, de ser posible:
+
+|Plataforma|Link|
+|---|---|
+|Tinkercad|https://www.tinkercad.com/things/jHFczUwpAl5-fantabulous-snaget-borwo/editel?sharecode=LwbzRV3-29FtA2J0TVSUUM-rs5Y8Tw0ZyQP3_A87m_Q|
