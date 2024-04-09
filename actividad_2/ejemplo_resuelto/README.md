@@ -65,23 +65,24 @@ A continuación se describen los pasos para llevar a cabo la actividad:
 
     *  **Dispositivo de borde (main-control)**: 
    
-      * **Esquematico**:
+       * **Esquematico**:
          
-        <p align = "center">
-        <img src = "rPi_main-control_sch.png">
-        </p>
+         <p align = "center">
+         <img src = "rPi_main-control_sch.png">
+         </p>
 
-      * **Conexiones**:
+       * **Conexiones**:
         
-        <p align = "center">
-        <img src = "rPi_main-control_bb.png">
-        </p>
+         <p align = "center">
+         <img src = "rPi_main-control_bb.png">
+         </p>
 
 4. **Implementar el software**: Se procede a codificar las aplicaciones de acuerdo a los requerimientos del problema:
 
-   **Codigo ESP32**:
-   
-   
+   * **Codigo ESP32**: Asumiendo que se empleo la tarjega `Nodenodemcu-32s` los archivos asociados se encuentran en el directorio **ESP32_nodo-office** ([link](ESP32_nodo-office/)):
+      * **Archivo de configuración de platformio**: [platformio.ini](ESP32_nodo-office/platformio.ini)
+      * **Archivo cabecera con la configuración del ESP32**: [config.h](ESP32_nodo-office/src/config.h)
+      * **Archivo con la logica del programa**: [main.cpp](ESP32_nodo-office/src/main.cpp)   
 
    **Codigo Raspberri Pi**:
    
