@@ -95,12 +95,25 @@ A continuación se describen los pasos para llevar a cabo la actividad:
       * [platformio.ini](ESP32_nodo-office/platformio.ini)
       * [config.h](ESP32_nodo-office/src/config.h)
       * [main.cpp](ESP32_nodo-office/src/main.cpp)   
+   
+   La implementación de la parte de MQTT en el ESP32 se resume en la siguiente tabla: 
+
+   |#|Topico|Mensaje|Descripción|Rol (S/P)|
+   |---|---|---|---|---|
+   |1|```home/office/lamp```|Topico que recibe el comando enviado desde la interfaz de control||```S```|
 
    * **Codigo Raspberri Pi**: En este se implementa la interfaz grafica de controla el encendido y apagado de la lampara. En el directorio **RPi_main-control** ([link](RPi_main-control/)) se encuentra el codigo correspondiente con la aplicación. A continuación se listan cada uno de los archivos de la aplicación de control:
       *  [contenedor.kv](RPi_main-control/contenedor.kv)
       *  [contenedor.py](RPi_main-control/contenedor.py)
       *  [iot.py](RPi_main-control/iot.py)
       *  [comm.py](RPi_main-control/comm.py)
+    
+     La implementación de la parte de MQTT en la interfaz grafica que se ejecuta en la RPi se resume en la siguiente tabla: 
+
+     |#|Topico|Mensaje|Descripción|Rol (S/P)|
+     |---|---|---|---|---|
+     |1|```home/office/lamp```|```cmd```|```cmd``` corresponde al comando enviado para encender (```{"lamp": 1}```) o apagar el led ```{"lamp": 0}```.|```P```|
+
 
 5. **Verificar el correcto funcionamiento de cada componente de la red**: Para ello se realizan las diferenter pruebas de conectividad de los componentes empleando los clientes `mosquitto_pub` y `mosquitto_pub` linea de comandos. Para realizar el debug, se implementará la siguiente topologia:
    
