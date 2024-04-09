@@ -79,13 +79,16 @@ A continuación se describen los pasos para llevar a cabo la actividad:
 
 4. **Implementar el software**: Se procede a codificar las aplicaciones de acuerdo a los requerimientos del problema:
 
-   * **Codigo ESP32**: Asumiendo que se empleo la tarjega `Nodenodemcu-32s` los archivos asociados se encuentran en el directorio **ESP32_nodo-office** ([link](ESP32_nodo-office/)):
-      * **Archivo de configuración de platformio**: [platformio.ini](ESP32_nodo-office/platformio.ini)
-      * **Archivo cabecera con la configuración del ESP32**: [config.h](ESP32_nodo-office/src/config.h)
-      * **Archivo con la logica del programa**: [main.cpp](ESP32_nodo-office/src/main.cpp)   
+   * **Codigo ESP32**: Asumiendo que se empleo la tarjega `Nodenodemcu-32s` los archivos asociados se encuentran en el directorio **ESP32_nodo-office** ([link](ESP32_nodo-office/)). A continuación se listan cada uno de los archivos asociados:
+      * [platformio.ini](ESP32_nodo-office/platformio.ini)
+      * [config.h](ESP32_nodo-office/src/config.h)
+      * [main.cpp](ESP32_nodo-office/src/main.cpp)   
 
-   **Codigo Raspberri Pi**:
-   
+   * **Codigo Raspberri Pi**: En este se implementa la interfaz grafica de controla el encendido y apagado de la lampara. En el directorio **RPi_main-control** ([link](RPi_main-control/)) se encuentra el codigo correspondiente con la aplicación. A continuación se listan cada uno de los archivos de la aplicación de control:
+      *  [contenedor.kv](RPi_main-control/contenedor.kv)
+      *  [contenedor.py](RPi_main-control/contenedor.py)
+      *  [iot.py](RPi_main-control/iot.py)
+      *  [comm.py](RPi_main-control/comm.py)
 
 
    
