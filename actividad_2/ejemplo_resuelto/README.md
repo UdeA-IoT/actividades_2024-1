@@ -12,6 +12,18 @@ Su objetivo será diseñar una aplicación que permita encender y apagar la luz 
 
 ## Solución
 
+En la siguiente figura se muestra la solución a implementar:
+
+<p align = "center">
+<img src = "ejemplo_office-lamp.png">
+</p>
+
+La interfaz de control de la lampara implementada en la Raspberry Pi se muestra a continuación:
+
+<p align = "center">
+<img src = "ui_control.png">
+</p>
+
 A continuación se describen los pasos para llevar a cabo la actividad:
 
 1. **Selección de componentes**: Esto es libre para usted como diseñador, para el caso el encargado decidió emplear dos elementos principales:
@@ -43,7 +55,7 @@ A continuación se describen los pasos para llevar a cabo la actividad:
 
    |Cliente|Tipo|Topic|Messages|Dispositivo |
    |---|---|---|---|---|
-   |`P1`|Publisher|`home/office/lamp`|	`'ON'`/`'OFF'`|`main-control`|
+   |`P1`|Publisher|`home/office/lamp`|	`{"lamp": 0}`/`{"lamp": 1}`|`main-control`|
    |`S1`|Subscriber|`home/office/lamp`||`nodo-office`|
 
 3. **Implementar el hardware**: Tener claramente definidas las conexiones de hardware para cada componente de la red mqtt. A continuación se espefifica el caso para cada cosa:
@@ -90,7 +102,13 @@ A continuación se describen los pasos para llevar a cabo la actividad:
       *  [iot.py](RPi_main-control/iot.py)
       *  [comm.py](RPi_main-control/comm.py)
 
+5. **Verificar el correcto funcionamiento de cada componente de la red**: Para ello se realizan las diferenter pruebas de conectividad de los componentes empleando los clientes `mosquitto_pub` y `mosquitto_pub` linea de comandos. Para realizar el debug, se implementará la siguiente topologia:
+   
+   <p align = "center">
+   <img src = "ejemplo_office-lamp_debug.png">
+   </p>
 
+## Referencias
    
 * https://www.upesy.com/blogs/tutorials/esp32-relay-module-using-arduino-code
 * https://juantrucupei.wordpress.com/2022/10/06/conectar-rele-relay-5v-en-microcontrolador-esp32-con-micropython/

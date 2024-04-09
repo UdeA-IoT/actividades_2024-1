@@ -10,21 +10,14 @@ using namespace std;
 
 // WiFi credentials
 
-const char *SSID = "IoT";
-//const char *PASSWORD = "1245678h";
-const char *PASSWORD = "1245678h";
-
-/*
-const char *SSID = "Alberto";
-const char *PASSWORD = "22181224";
-*/
-
+const char *SSID = "ssid";
+const char *PASSWORD = "pass_ssid";
 
 // MQTT settings
 const string ID = "nodo_office";
 
-const string BROKER = "192.168.43.61";                  // IP-RPi
-const string CLIENT_NAME = ID + "001";
+const string BROKER = "BROKER-IP";                 
+const string CLIENT_NAME = ID + "-" + "001";
 
 const string TOPIC = "home/office/lamp";
 

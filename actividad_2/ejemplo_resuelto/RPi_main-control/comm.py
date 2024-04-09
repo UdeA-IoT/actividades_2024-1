@@ -2,7 +2,7 @@ import paho.mqtt.client as mqttc
 from paho.mqtt import publish
 
 TOPIC = "/home/office/lamp"
-BROKER_URL = "localhost"
+BROKER_URL = "localhost"   # IP_BROKER
 BROKER_PORT = 1883
 
 class Publisher:

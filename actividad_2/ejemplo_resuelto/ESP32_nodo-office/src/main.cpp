@@ -58,7 +58,7 @@ void clientCallback(char* topic, byte* payload, unsigned int length) {
     return;
   }
 
-  bool lamp_cmd = doc["light"];
+  bool lamp_cmd = doc["lamp"];
   if(lamp_cmd == HIGH) {
     // Turn the light on
     digitalWrite(LIGHT_PIN, HIGH);
