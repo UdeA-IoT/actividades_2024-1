@@ -19,15 +19,15 @@ Homero Simpson se aburrió trabajando en la central nuclear de Sprinfield y deci
 <img src = "homero.png">
 </p>
 
-Despues de pensar un rato en el nombre, decidió bautizar su empresa como **CompumundoHiperMegaRed** y contrato a varios de sus amigos para trabajar. A Barney lo contrato para administrar el servidor y a Lenny, Carl, Moe y Skinner para que programen. 
+Despues de pensar un rato en el nombre, decidió bautizar su empresa como **CompumundoHiperMegaRed** y contrató a varios de sus amigos para trabajar. A Barney lo contrató para administrar el servidor; a Lenny, Carl, Moe y Skinner para que programen. 
 
-Para las instalaciones de la empresa uso el garaje organizandolo de la siguiente manera:
+Para las instalaciones de la empresa usó el garaje organizandolo de la siguiente manera:
 
 <p align = "center">
 <img src = "casa_sin_iot.png">
 </p>
 
-Posteriormente, junto con sus empleados desplegó una arquitectura IoT para hacer mas agradable el espacio de trabajo:
+Posteriormente, junto con sus empleados desplegó una arquitectura IoT para hacer más agradable el espacio de trabajo:
 
 <p align = "center">
 <img src = "casa_con_iot.png">
@@ -39,10 +39,10 @@ La descripción y funcionalidad del hardware anteriormente instalado, se muestra
 
 |Elemento|Referencia|Función|
 |----|----|----|
-|Control|rPi|Control principal. Aquí se implementará una gui de control para manejará todos los componentes necesarios. Asi mismo aqui correrá el mosquitto|
+|Control|rPi|Control principal. Aquí se implementará una GUI de control que manejará todos los componentes necesarios. Así mismo, aquí correrá el broker MQTT mosquitto|
 |Nodo de la oficina|ESP32|Nodo que controlará la apertura de la puerta de la oficina y el encendido y apagado de la lámpara de la oficina.|
-|Nodo de la sala del servidor|ESP32|Nodo que controlara el encendido y apagado de la luz de la sala del servidor. El encendido y apagado de esta solo depende del sensor de presencia y no del control principal, sin embargo, cuando se encienda o apague la lámpara se debe mandar una notificación del evento al control. Además este elemento estará conectado a un sensor que hará la lectura de la temperatura y la enviará al control (rPi).|
-|lámpara 1|lámpara|Lámpara que ilumina la oficina y que es controlada desde la interfaz gráfica de la rPi.|
+|Nodo de la sala del servidor|ESP32|Nodo que controlará el encendido y apagado de la luz de la sala del servidor. El encendido y apagado de esta solo depende del sensor de presencia y no del control principal, sin embargo, cuando se encienda o apague la lámpara se debe mandar una notificación del evento al control. Además este elemento estará conectado a un sensor que hará la lectura de la temperatura y la enviará al control (RPi).|
+|lámpara 1|lámpara|Lámpara que ilumina la oficina y que es controlada desde la interfaz gráfica de la RPi.|
 |lámpara 2|lámpara|Lámpara que ilumina la sala del servidor y que es controlada por el sensor de movimiento que se encuentra en esta.|
 |Sensor de movimieto sala del servidor|sensor de movimiento|Sensor que detecta la presencia de alguien en la sala del servidor.|
 |Sensor de temperatura de la sala del servidor|sensor de temperatura|Sensor de temperatura que mide la temperatura en la sala del servidor.|
@@ -51,7 +51,7 @@ La descripción y funcionalidad del hardware anteriormente instalado, se muestra
 ## Entregables
 
 Se pide entregar las siguientes evidencias:
-1. Directorio en el repositorio con las evidencias respectivas (archivos README.md, imagenes, esquemas, etc.). 
+1. Directorio en el repositorio con las evidencias respectivas (archivos README.md, imágenes, esquemas, etc.). 
 2.	Códigos (scripts de python, archivos ESP32, etc.)
 3.	Video con evidencia.
 
