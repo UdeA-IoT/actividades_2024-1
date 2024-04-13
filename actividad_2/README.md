@@ -57,4 +57,4 @@ Se pide entregar las siguientes evidencias:
 
 ## Plantilla 
 
-ToDo...
+Implemente usando la plantilla [TEMPLATE.md](TEMPLATE.md).
