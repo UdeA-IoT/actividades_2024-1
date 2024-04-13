@@ -26,13 +26,22 @@ Imagen con el diagrama de conexión
 
 ## Software
 
-### Código
+### Código ESP32
 
-Código implementado en la placa empleada
+Descripción del código implementado en la placa ESP32. Realice una descripción de los principales componentes del código sin copiar y pegar todo el código, pues será adjuntado en la entrega.
 
 ```C++
 // codigo de la placa base...
 // ...
+```
+
+### Código RPi
+
+Código implementado en la RPi. Realice una descripción de los principales componentes del código sin copiar y pegar todo el código, pues será adjuntado en la entrega.
+
+```Python
+# codigo de la placa base...
+# ...
 ```
 
 
