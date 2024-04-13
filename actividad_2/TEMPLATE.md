@@ -18,11 +18,11 @@ Lista de los componentes, llenando una tabla de la siguiente forma:
 
 ### Esquemático
 
-Imagen con el esquematico del circuito
+Imagen con el esquemático de los circuitos.
 
 ### Conexiones
 
-Imagen con el diagrama de conexión
+Imagen con los diagramas de conexión.
 
 ## Software
 
@@ -31,7 +31,7 @@ Imagen con el diagrama de conexión
 Descripción del código implementado en la placa ESP32. Realice una descripción de los principales componentes del código sin copiar y pegar todo el código, pues será adjuntado en la entrega.
 
 ```C++
-// codigo de la placa base...
+// código de la placa base...
 // ...
 ```
 
@@ -40,11 +40,11 @@ Descripción del código implementado en la placa ESP32. Realice una descripció
 Código implementado en la RPi. Realice una descripción de los principales componentes del código sin copiar y pegar todo el código, pues será adjuntado en la entrega.
 
 ```Python
-# codigo de la placa base...
+# código de la placa base...
 # ...
 ```
 
 
 ### Montaje real
 
-Foto y video del montaje real realizado
+Foto y video del montaje real realizado.
