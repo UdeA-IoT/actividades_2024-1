@@ -9,7 +9,7 @@
 
 ## Antes de empezar
 
-Antes de empezar se recomienda que revise y entienda los pasos empleados para la implementación de una aplicación sencilla empleando el protocolo MQTT. Para esto, siga el siguiente [link](ejemplo_resuelto/)
+Antes de empezar se recomienda que revise y entienda los pasos empleados para la implementación de una aplicación sencilla empleando el protocolo MQTT. Para esto, siga el siguiente [link](ejemplo_resuelto1/)
 
 ## Actividad
 
