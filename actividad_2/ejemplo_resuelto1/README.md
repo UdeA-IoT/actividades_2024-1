@@ -1,4 +1,4 @@
-# Ejemplo repasando lo visto en clase
+# Ejemplo 1
 
 ## Enunciado
 
