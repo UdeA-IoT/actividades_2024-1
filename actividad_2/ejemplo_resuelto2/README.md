@@ -2,8 +2,8 @@
 
 En construcción...
 
-* **Caso sin MQTT**: ESP32-no_mqtt-example1-thing1_2024-1 [[link]](https://wokwi.com/projects/395291436304944129)
-* **Caso con MQTT**: ESP32-mqtt-example1-thing2_2024-1 [[link]](https://wokwi.com/projects/395294148400982017)
+* Thing 1 [[link]](ESP32-thing1/)
+* Thing 2 (En construcción...)
 
 
 ## Referencias
